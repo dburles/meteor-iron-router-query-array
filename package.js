@@ -7,6 +7,6 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  api.use(['underscore', 'iron:router']);
+  api.use(['underscore', 'iron:router@1.0.6']);
   api.addFiles('iron-router-query-array.js');
 });
