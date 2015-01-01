@@ -43,7 +43,9 @@ Router.query.clear();
 
 ## Example Application
 
-http://query-array-demo.meteor.com
+Demo: http://query-array-demo.meteor.com
+
+Source: https://github.com/dburles/query-array-demo
 
 ### License
 
