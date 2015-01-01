@@ -43,7 +43,7 @@ Router.query.clear();
 
 ## Example Application
 
-TODO
+http://query-array-demo.meteor.com
 
 ### License
 
