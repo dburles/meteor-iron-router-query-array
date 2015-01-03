@@ -17,14 +17,14 @@ $ meteor add dburles:iron-router-query-array
 Router.query.add('foo', 1);
 // http://example.com/?foo[]=1
 Router.query.add('foo', 2);
-// http://example.com/?foo[]=1&foo=2
+// http://example.com/?foo[]=1&foo[]=2
 ```
 
 ### remove(name, value);
 
 ```js
 Router.query.remove('foo', 1);
-// http://example.com/?foo=2
+// http://example.com/?foo[]=2
 ```
 
 ### isSet(name, value);
